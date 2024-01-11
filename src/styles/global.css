@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "GothamMedium";
+  src: local("GothamMedium"),
+   url("./fonts/Gotham-Medium.otf") format("opentype");
+ }
+
+ @font-face {
+  font-family: "Baron";
+  src: local("Baron"),
+   url("./fonts/Baron.otf") format("opentype");
+ }
+
+.font-link {
+  font-family: 'Raleway', sans-serif;
+  
+}
+
+body {
+  margin: 0;
+  background-color: #305252;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Gothic', 'GothamMedium'
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h2 {
+  color: #E0FBFC;
+  font-family: "Baron";
+}
+
+.navbarText {
+  font-family: "GothamMedium";
+  color: #E0FBFC; 
+  font-size: 22;
+  margin-left: 3rem;
+}

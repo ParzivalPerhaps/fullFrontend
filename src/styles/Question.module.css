@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "GothamMedium";
+    src: local("GothamMedium"),
+     url("./fonts/Gotham-Medium.otf") format("opentype");
+   }
+  
+   @font-face {
+    font-family: "Baron";
+    src: local("Baron"),
+     url("./fonts/Baron.otf") format("opentype");
+   }
+
+.font-link {
+    font-family: 'Raleway', sans-serif;
+  }
+
+.questionCard {
+    background-color: #E0FBFC;
+    width: 30rem;
+    height: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4px;
+}
+
+.questionCard:hover{
+    background-color: rgb(122, 179, 180);
+}
+
+.questionCardChosen {
+    background-color: #373E40;
+    color: #E0FBFC;
+    width: 30rem;
+    height: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4px;
+}
+
+.questionCardCorrect {
+    background-color: #2dc768;
+    color: #E0FBFC;
+    width: 30rem;
+    height: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4px;
+}
+
+.questionCardIncorrect {
+    background-color: #c02d4c;
+    color: #E0FBFC;
+    width: 30rem;
+    height: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4px;
+}
+
+.questionText {
+    font-family: 'Raleway', sans-serif;
+}
+
+.questionHeadText {
+    width: 80rem;
+    color: #E0FBFC;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    font-family: 'Baron', sans-serif;
+}
+
+.questionColumn {
+    margin-right: auto;
+    margin-left: 6%;
+}
+
+.questionSubmitButton {
+    background-color: #E0FBFC;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 5rem;
+    color: black;
+}

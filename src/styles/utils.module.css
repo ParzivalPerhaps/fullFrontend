@@ -1,0 +1,10 @@
+.width100 {
+    width:"100%"; 
+    background-color:"#488286"; 
+    border-color: "#488286";
+  }
+  
+  .width100:hover{
+    background-color:"#488286"; 
+    border-color: "#488286";
+  }
